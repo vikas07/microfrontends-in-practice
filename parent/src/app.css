@@ -1,0 +1,46 @@
+*, html {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  color: #444;
+  max-width: 800px;
+  margin: 64px auto;
+  font: normal 14px/1.5 sans-serif;
+}
+
+.app__header {
+  margin: 16px 16px 0;
+}
+
+.app__logo {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: normal;
+}
+
+.app__main {
+  display: flex;
+  width: 100%;
+  padding: 8px;
+}
+
+.app__main__column {
+  padding: 8px;
+}
+
+.app__main__column:first-child {
+  flex: 2;
+}
+
+.app__main__column:last-child {
+  flex: 1;
+}
+
+.microfrontend__wrapper {
+  padding: 16px;
+  margin-bottom: 16px;
+  border: 2px palevioletred dashed;
+}
