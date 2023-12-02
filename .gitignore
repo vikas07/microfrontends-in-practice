@@ -1,0 +1,16 @@
+.DS_Store
+
+artists/client/node_modules/
+artists/server/node_modules/
+artists/server/public/
+artists/utils/node_modules/
+
+songs/client/node_modules/
+songs/server/node_modules/
+songs/server/public/
+songs/utils/node_modules/
+
+playlist/client/node_modules/
+playlist/server/node_modules/
+playlist/server/public/
+playlist/utils/node_modules/
